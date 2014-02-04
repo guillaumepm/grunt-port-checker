@@ -1,0 +1,45 @@
+{
+  "name": "grunt-port-checker",
+  "description": "Verify that a port is available and update grunt configurations as necessary.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/guillaumepm/grunt-port-checker",
+  "author": {
+    "name": "Guillaume Poulet-Mathis",
+    "email": "guillaumepm@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:guillaumepm/grunt-port-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumepm/grunt-port-checker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/guillaumepm/grunt-port-checker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "portchecker": "~0.1.2",
+    "grunt-contrib-connect": "~0.6.0"
+  }
+}
